@@ -1,0 +1,134 @@
+.grettings {
+    padding-top: 51px;
+    background: url(../../img/grettings/fon.png) no-repeat center/cover;
+}
+
+.header {
+    padding: 16px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: 75px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hedaer__contant {
+    display: flex;
+    column-gap: 73px;
+    align-items: center;
+}
+
+.logo {}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+    column-gap: 41px;
+}
+
+.nav__item a,
+.btn__reg {
+    color: rgb(34, 37, 59);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 104.4%;
+}
+
+.btn-block {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+
+
+.btn__log-in {
+    padding: 8px 16px 8px 15px;
+    background-color: #38BFF2;
+    border-radius: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 104.4%;
+    display: flex;
+    align-items: center;
+}
+
+.btn__log-in::before {
+    content: "";
+    display: inline-block;
+    background: url(../../img/grettings/str.svg) no-repeat;
+    width: 9px;
+    height: 10px;
+    margin-right: 4px;
+}
+
+
+.burger {
+    display: none;
+    flex-direction: column;
+    row-gap: 4px;
+    cursor: pointer;
+}
+
+.burger__line {
+    width: 25px;
+    height: 4px;
+    border-radius: 21px;
+    background: rgb(241, 85, 37);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.hero__contant {
+    
+}
+
+.hero__title {}
+
+.hero__text {}
+
+.test {}
+
+.test__link {
+    padding: 27px 50px 28px 46px;
+    background-color: #F15525;
+    border-radius: 82px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 96.69%;
+}
+
+.test__link::after{
+    content: "";
+    display: inline-block;
+    background: url(../../img/grettings/Arrow.svg) no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+
+@media (max-width:890px){
+    .grettings{
+        padding-top: 8px;
+    }
+    .nav{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
+}
+
+@media(max-width: 500px){
+    .btn__reg{
+        display: none;
+    }
+}
